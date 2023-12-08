@@ -2,3 +2,13 @@
 ---
 
 @import 'jekyll-theme-cayman';
+
+
+.header-image {
+    flex: 0 0 auto; /* Do not grow or shrink, keep original size */
+}
+
+.header-text {
+    flex-grow: 1; /* Take up remaining space */
+    padding-left: 20px; /* Add some space between the image and text */
+}
